@@ -1,0 +1,17 @@
+body {
+    background-image: url(../images/mariobg.png);
+    background-size: 100% 100%;
+    font-family: "Press Start 2P", cursive;
+}
+
+header {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    text-shadow: 5px 1px 0px #000;
+    position: absolute;
+    font-size: 1.5em;
+    top: 15%;
+    bottom: 50%;
+    margin: 0 auto;
+}
