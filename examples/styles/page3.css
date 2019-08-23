@@ -1,0 +1,72 @@
+body {
+    font-size: 16px;
+    color: white;
+    height: 100vh;
+    /*display: grid;*/
+    /*grid-template-areas: "header" "navigation";*/
+    /*grid-row-gap: 4em;*/
+    font-family: "Lato", sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background: linear-gradient(
+        to top right,
+        rgb(198, 255, 221),
+        rgb(251, 215, 134),
+        rgb(247, 148, 143) /*rgb(244, 161, 157)*/
+    );
+
+    /*  background: linear-gradient(
+        to right,
+        rgb(33, 147, 176),
+        rgb(109, 213, 237)
+    );*/
+}
+/*font-family: "Press Start 2P", cursive;*/
+
+.card {
+    width: 60vw;
+    height: 50vh;
+    /*center horizontally*/
+    /*margin: 0 auto;*/
+
+    display: grid;
+    align-items: center;
+    grid-template-areas: "image content";
+    background-color: #424242;
+    justify-items: start;
+    border-radius: 10px;
+    border: 5px white solid;
+    /*proceed with caution*/
+    /*box-shadow: 13px 21px 200px 0px rgba(159, 207, 178, 0.93);*/
+    box-shadow: 13px 21px 200px 0px rgba(0, 0, 0, 0.43);
+}
+.image {
+    /*make it fit in parent div*/
+    height: 100%;
+    object-fit: contain;
+    grid-area: image;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.content {
+    grid-area: content;
+    padding: 2em;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.bio {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+a {
+    color: white;
+}
