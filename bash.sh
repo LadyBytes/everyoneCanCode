@@ -1,8 +1,10 @@
+pwd                     // show current location
+
 cd path/to/myProject    // change directory
 
 cd ..                   // go up one level
 
-pwd                     // show current location
+ls                      // show directory contents
 
 mkdir project           // create new directory
 
